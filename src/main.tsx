@@ -4,7 +4,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import App from './App.tsx'
 import './index.css'
 import Root from './routes/root';
 import ErrorPage from './pages/error-page.tsx';
