@@ -38,8 +38,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gh-pages-testing" element={<Home />} />
-            <Route path="/blog/*" element={<BlogApp />} />
-            <Route path="/users/*" element={<UserApp />} />
+            {/* <Route path="/blog/*" element={<BlogApp />} />
+            <Route path="/users/*" element={<UserApp />} /> */}
             <Route path="/gh-pages-testing/blog/*" element={<BlogApp />} />
             <Route path="/gh-pages-testing/users/*" element={<UserApp />} />
             {/* <Route path="notfound" element={<NotFound />} />
